@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import GoogleMaps
+import GooglePlaces
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
     var window: UIWindow?
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
+    {
+       // TestFairy.begin("d9696e9f531d2cbd02b10b9d2f6b4958630fde10")
+        GMSServices.provideAPIKey(ConfigUrl.googleApiKey)
+        GMSPlacesClient.provideAPIKey(ConfigUrl.googleApiKey)
+        
+//        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+//        let rootViewController: UIViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
+//        let leftViewController: UIViewController = storyboard.instantiateViewController(withIdentifier: "LeftMenuViewController")
+//        let navigationController = UINavigationController(rootViewController: rootViewController)
+//        let sideMenuController = LGSideMenuController(rootViewController: navigationController, leftViewController: leftViewController, rightViewController: nil)
+//        let screenRect: CGRect = UIScreen.main.bounds
+//        let screenWidth: CGFloat = screenRect.size.width / 3
+//        sideMenuController.leftViewWidth = screenWidth * 2.4
+//        sideMenuController.leftViewPresentationStyle = .slideAbove
+//        window!.rootViewController = sideMenuController
+        
         return true
     }
 

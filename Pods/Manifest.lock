@@ -1,0 +1,87 @@
+PODS:
+  - Alamofire (4.8.2)
+  - FCAlertView (1.4.0)
+  - FTPopOverMenu (2.0.3)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - GooglePlaces (3.0.3):
+    - GoogleMaps/Base (= 3.0.3)
+  - GooglePlacesAPI (1.1.4):
+    - Alamofire (~> 4)
+    - ObjectMapper (~> 3)
+  - IQKeyboardManager (6.2.1)
+  - LGSideMenuController (2.1.1)
+  - ObjectMapper (3.4.2)
+  - PieCharts (0.0.7)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SelectionList (1.3.0)
+  - SVPinView (1.0.7)
+  - TestFairy (1.19.3)
+  - TTRangeSlider (1.0.6)
+  - ZVActivityIndicatorView (0.1.6)
+  - ZVProgressHUD (2.1.0):
+    - ZVActivityIndicatorView
+
+DEPENDENCIES:
+  - FCAlertView
+  - FTPopOverMenu
+  - GoogleMaps
+  - GooglePlaces
+  - GooglePlacesAPI
+  - IQKeyboardManager
+  - LGSideMenuController
+  - PieCharts
+  - SDWebImage
+  - SelectionList
+  - SVPinView (~> 1.0)
+  - TestFairy
+  - TTRangeSlider (~> 1.0.6)
+  - ZVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - FCAlertView
+    - FTPopOverMenu
+    - GoogleMaps
+    - GooglePlaces
+    - GooglePlacesAPI
+    - IQKeyboardManager
+    - LGSideMenuController
+    - ObjectMapper
+    - PieCharts
+    - SDWebImage
+    - SelectionList
+    - SVPinView
+    - TestFairy
+    - TTRangeSlider
+    - ZVActivityIndicatorView
+    - ZVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+  FTPopOverMenu: 8aa89de66e72b53db3e7eeab42243d393237768f
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
+  GooglePlacesAPI: 6184a463b58443f1bde3fab6ce725c1c8e540419
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  LGSideMenuController: ae40c80983ab8b8801c7cef0a6804d43aaa72d45
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PieCharts: 30e50dfa7dc19e5b84e9878d32089673ef5d0453
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SelectionList: 4f4c720baf48f3d19c28d0622a43cbef237bb984
+  SVPinView: 6c1da57e4a1273298802f460c60511ba10f7c831
+  TestFairy: 1b6bf5dd30af7a0a302e8550789789a649d8c17a
+  TTRangeSlider: 78188bea83f6471a06f75adbc88da5e990baeafe
+  ZVActivityIndicatorView: 283a608ad964f4479eaec633b3c185fda1061290
+  ZVProgressHUD: 0a047fbe0c744cce53d9a6a63657f772c0257429
+
+PODFILE CHECKSUM: a6fae1199858732c6d775d41d48255a902a62996
+
+COCOAPODS: 1.6.0.beta.1
